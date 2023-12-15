@@ -1,0 +1,73 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "yarn postinstall",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "clean:base": {
+      "name": "clean:base",
+      "command": "yarn clean:base",
+      "runAtStart": false
+    },
+    "clean:browser": {
+      "name": "clean:browser",
+      "command": "yarn clean:browser",
+      "runAtStart": false
+    },
+    "clean:covert": {
+      "name": "clean:covert",
+      "command": "yarn clean:covert",
+      "runAtStart": false
+    },
+    "clean:stealth": {
+      "name": "clean:stealth",
+      "command": "yarn clean:stealth",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build:base": {
+      "name": "build:base",
+      "command": "yarn build:base",
+      "runAtStart": false
+    },
+    "build:browser": {
+      "name": "build:browser",
+      "command": "yarn build:browser",
+      "runAtStart": false
+    },
+    "build:covert": {
+      "name": "build:covert",
+      "command": "yarn build:covert",
+      "runAtStart": false
+    },
+    "build:stealth": {
+      "name": "build:stealth",
+      "command": "yarn build:stealth",
+      "runAtStart": false
+    }
+  }
+}
